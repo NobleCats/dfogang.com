@@ -1,0 +1,18 @@
+# robots.txt for DFO Gang
+User-agent: *
+Allow: /
+Allow: /ranking
+Allow: /statistics
+
+# Disallow old/archived files
+Disallow: /old/
+
+# Disallow character detail page without parameters (no content)
+Disallow: /character?
+Disallow: /character$
+
+# Allow ads.txt
+Allow: /ads.txt
+
+# Sitemap location
+Sitemap: https://dfogang.com/sitemap.xml
