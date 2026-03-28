@@ -3,6 +3,9 @@ User-agent: *
 Allow: /
 Allow: /ranking
 Allow: /statistics
+Allow: /community
+Allow: /privacy
+Allow: /terms
 
 # Disallow old/archived files
 Disallow: /old/
@@ -10,6 +13,9 @@ Disallow: /old/
 # Disallow character detail page without parameters (no content)
 Disallow: /character?
 Disallow: /character$
+
+# Disallow user account pages (private)
+Disallow: /account
 
 # Allow ads.txt
 Allow: /ads.txt
