@@ -10,8 +10,7 @@ Allow: /terms
 # Disallow old/archived files
 Disallow: /old/
 
-# Disallow character detail page without parameters (no content)
-Disallow: /character?
+# Disallow character page without parameters (no content)
 Disallow: /character$
 
 # Disallow user account pages (private)
